@@ -74,7 +74,8 @@ console.log("EXERCISE 4: ", mothersNameOfSecondPerson);
 // EXERCISE 5
 // Change the value of the variable animaltypeOfLisasPet to equal the type of animal of Lisas pet.
 
-const animaltypeOfLisasPet = "change me";
+const animaltypeOfLisasPet = people[3].pet.name;
+console.log("EXERCISE 5: ", animaltypeOfLisasPet);
 
 export {
   nameOfFirstPerson,
